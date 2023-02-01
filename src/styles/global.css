@@ -1,0 +1,15 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-900 h-screen;
+  }
+
+  * {
+    @apply font-sans;
+  }
+}
