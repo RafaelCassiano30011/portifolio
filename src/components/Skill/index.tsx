@@ -16,7 +16,7 @@ import logoGitHub from "../../assets/skills/logo-github.png";
 
 const Skill = () => {
   return (
-    <Container className="flex flex-col items-center mb-[100px]">
+    <Container id="skill" className="flex flex-col items-center mb-[100px]">
       <p className="font-semibold text-3xl text-white mb-10">Habilidades</p>
       <div className="flex gap-10 justify-center items-center">
         <Image src={logoHtml} />

@@ -9,11 +9,17 @@ module.exports = {
     fontFamily: {
       sans: ["Inter", "sans-serif"],
     },
+
     extend: {
       container: {
         xl: "1220px",
       },
+      colors: {
+        neutral: {
+          800: "#333333",
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [require(`@tailwindcss/line-clamp`)],
 };
