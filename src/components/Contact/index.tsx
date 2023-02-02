@@ -3,6 +3,9 @@
 import Container from "../../shared/Container";
 
 import whatsappImage from "../../assets/contact/contact-whatsapp.png";
+import instagramImage from "../../assets/contact/contact-instagram.png";
+import linkdedImage from "../../assets/contact/contact-linkded.png";
+import emailImage from "../../assets/contact/contact-email.png";
 
 const Contact = () => {
   return (
@@ -13,13 +16,13 @@ const Contact = () => {
           <img className="max-h-12" src={whatsappImage} alt="" />
         </a>
         <a href="">
-          <img src={whatsappImage} alt="" />
+          <img src={instagramImage} alt="" />
         </a>
         <a href="">
-          <img src={whatsappImage} alt="" />
+          <img src={linkdedImage} alt="" />
         </a>
         <a href="">
-          <img src={whatsappImage} alt="" />
+          <img src={emailImage} alt="" />
         </a>
       </div>
     </Container>
