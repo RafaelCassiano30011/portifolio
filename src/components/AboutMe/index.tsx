@@ -5,7 +5,7 @@ import Profile from "../../assets/about-me/profile.png";
 
 const AboutMe = () => {
   return (
-    <div id="#about-me" className="mt-[91px] w-full max-h-[420px] h-full mb-[86px] px-[10px]">
+    <div id="about-me" className="mt-[91px] w-full max-h-[420px] h-full mb-[86px] px-[10px]">
       <Container className="flex justify-between items-center">
         <img src={Profile} alt="Foto Rafael Cassiano" />
         <div className="w-full max-w-[700px]">
