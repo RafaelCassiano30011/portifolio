@@ -12,4 +12,8 @@
   * {
     @apply font-sans;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
 }
