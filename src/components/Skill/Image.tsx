@@ -6,6 +6,6 @@ interface ImageProps {
 }
 
 const Image = ({ ...props }: ImageProps) => {
-  return <img className="max-h-[50px]" {...props} />;
+  return <img className="max-h-[50px] flex" {...props} />;
 };
 export default Image;

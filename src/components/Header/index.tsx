@@ -34,13 +34,15 @@ const Header = () => {
   );
 
   return (
-    <header className="h-[105px] border-y-cyan-200 border-y-2 sticky top-0 left-0 bg-neutral-900 px-5">
+    <header className="h-[105px] border-y-cyan-200 border-y-2 sticky top-0 left-0 z-10 bg-neutral-900 px-5">
       <Container className="flex justify-between items-center">
-        {window.innerWidth <= 1024 && <Menu>{Nav}</Menu>}
+        <div className="contents lg:hidden">
+          <Menu>{Nav}</Menu>
+        </div>
 
         <img src={GiHubImage} />
 
-        {window.innerWidth > 1024 && Nav}
+        <div className="hidden lg:contents">{Nav}</div>
       </Container>
     </header>
   );

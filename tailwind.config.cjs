@@ -23,6 +23,10 @@ module.exports = {
       spacing: {
         12: "3.125rem",
       },
+      
+      rounded: {
+        xl: "10px",
+      },
     },
   },
   plugins: [require(`@tailwindcss/line-clamp`)],

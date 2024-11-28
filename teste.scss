@@ -1,0 +1,28 @@
+@media (min-width: 640px) {
+  #1hkpbt4et .embla__slide {
+    width: 41.67%;
+  }
+  #1hkpbt4et .viewport::before {
+    content: "[object Object]";
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #1hkpbt4et .embla__slide {
+    width: 33.33%;
+  }
+  #1hkpbt4et .viewport::before {
+    content: "[object Object]";
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  #1hkpbt4et .embla__slide {
+    width: 25%;
+  }
+  #1hkpbt4et .viewport::before {
+    content: "[object Object]";
+    display: none;
+  }
+}
